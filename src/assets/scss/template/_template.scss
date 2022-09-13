@@ -105,8 +105,8 @@ html, body,
     display: inline-block;
     width: 150px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     border: 1px solid #818487;
     border-radius: 5px;
     color: white;
@@ -115,6 +115,84 @@ html, body,
     }
 
   }
+}
+.content-area{
+  background: #f1f4f7;
+  background-color: #f1f4f7;
+  & > tbody > tr > th{
+    padding-top: 10px;
+  }
+  .offer{
+    background: #ffffff;
+    background-color: #ffffff;
+    .columns{
+      th{
+        padding-top: 20px;
+        padding-bottom: 20px;   
+        padding-right: 20px;
+        padding-left: 20px;   
+
+      }  
+    }
+    img{
+      padding-bottom: 20px;
+    }
+    h2{
+      color: white;
+      font-weight: 900;
+      font-size: 30px;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    p{
+      padding-bottom: 20px;
+      color: #334755;
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center;
+    }
+    span{
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center; 
+      display: block;
+      &.save_amount{
+        font-size: 14px;
+        color: #1f94f5;
+      }
+      &.tiny_info{
+        font-size: 10px;
+        font-weight: 500;
+        padding-bottom: 10px;
+        color: #53636f;
+      }
+      &.price{
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 10px;
+        color: #384b59;
+      }
+    }
+    .button{
+      font-weight: 500;
+      display: inline-block;
+      width: 150px;
+      text-align: center;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      border: 1px solid #818487;
+      border-radius: 3px;
+      background: #14191e;
+      background-color: #14191e;
+      color: #fcfdfc;
+      &:hover{
+        color: $primary-color;
+      }
+  
+    }
+  }
+  
 }
 .footer{
   background: black;
