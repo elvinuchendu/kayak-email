@@ -224,15 +224,39 @@ html, body,
   }
   
 }
-.footer{
-  background: black;
-  background-color: black;
-  .footer-container{
-    background: black;
-    background-color: black;
-  }
-  a{
-    color: red
+.footer-top{
+  background: #222d37 ;
+  background-color: #222d37;
+  color: white;
+  & > tbody > tr >th{
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    th{
+      padding-bottom: 0;
+    }
+    .call-to-action{
+      display: block;
+      font-size: 14px;
+    }
+    .info{
+      display: block;
+      font-size: 12px;
+    }
+    .info-section > table > tbody > tr > th{
+      padding-left: 10px;
+      color: white;
+    }
+    .store-logos{
+      img{
+        height: 40px;
+      }
+     .columns th{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+      }
+    }
   }
 }
 
