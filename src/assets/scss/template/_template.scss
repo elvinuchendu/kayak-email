@@ -229,20 +229,27 @@ html, body,
   background-color: #222d37;
   color: white;
   & > tbody > tr >th{
-    padding-bottom: 30px !important;
+    padding-bottom: 25px !important;
     padding-top: 30px !important;
     padding-left: 30px !important;
     padding-right: 30px !important;
     th{
-      padding-bottom: 0;
+      padding-bottom: 0px;
+      padding-top: 0px;
+    }
+    .circle-logo{
+      display: block;
+      margin: 0 auto;
     }
     .call-to-action{
       display: block;
       font-size: 14px;
+      hyphens: none;
     }
     .info{
       display: block;
       font-size: 12px;
+      hyphens: none;
     }
     .info-section > table > tbody > tr > th{
       padding-left: 10px;
@@ -254,6 +261,12 @@ html, body,
         display: block;
         margin: 0 auto;
       }
+      & > table > tbody > tr > th > table > tbody > tr > th{
+        padding-bottom: 5px;
+      }
+    }
+    & > table > tbody > tr > th > table > tbody > tr >th{
+      vertical-align: middle;
     }
   }
 }
