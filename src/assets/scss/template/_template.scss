@@ -251,10 +251,8 @@ html, body,
     &.store-logos {
       img {
         height: 40px;
-      }
-     .columns th{
-        padding-left: 5px !important;
-        padding-right: 5px !important;
+        display: block;
+        margin: 0 auto;
       }
     }
   }
