@@ -258,6 +258,7 @@ html, body,
     &.store-logos {
       img {
         height: 40px;
+        width: 120px;
         display: block;
         margin: 0 auto;
       }
@@ -270,7 +271,30 @@ html, body,
     }
   }
 }
-
+.footer-social{
+  background: #14191e;
+  background-color: #14191e;
+  & > tbody > tr> th{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  th{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .logo-section{
+    img{
+      width: 128px;
+    }
+  }
+  .social-icons{
+    img{
+      width: 32px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
 .text-center{
   text-align: center;
 }
