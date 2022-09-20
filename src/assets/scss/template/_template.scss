@@ -38,7 +38,7 @@ html, body,
       font-weight: 700;
       .icons{
         width: 20px;
-        margin-right: 10px;
+        margin-right: 5px;
         display: inline-block;
         vertical-align: bottom;
       }
@@ -233,6 +233,7 @@ html, body,
     padding-top: 30px !important;
     padding-left: 30px !important;
     padding-right: 30px !important;
+    vertical-align: middle;
     th{
       padding-bottom: 0px;
       padding-top: 0px;
@@ -245,11 +246,13 @@ html, body,
       display: block;
       font-size: 14px;
       hyphens: none;
+      color: white;
     }
     .info{
       display: block;
       font-size: 12px;
       hyphens: none;
+      color: white;
     }
     .info-section > table > tbody > tr > th{
       padding-left: 10px;
@@ -261,6 +264,8 @@ html, body,
         width: 120px;
         display: block;
         margin: 0 auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
       }
       & > table > tbody > tr > th > table > tbody > tr > th{
         padding-bottom: 5px;
