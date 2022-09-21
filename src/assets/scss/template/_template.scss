@@ -300,6 +300,39 @@ html, body,
     }
   }
 }
+.footer-menu{
+  background: #14191e;
+  background-color: #14191e;
+  .columns{
+    padding-bottom: 5px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    padding-top: 5px !important;
+    a{
+      color: white;
+      font-size: 14px;
+      font-weight: 700;
+      .icons{
+        width: 20px;
+        margin-right: 5px;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+      th{
+        text-align: center;
+      // not working for whatever reason
+      }
+    }
+    .menu-divider{
+      display: block;
+      height: 20px; 
+      width: 1px; 
+      background: #ff6a10; 
+      background-color: #ff6a10;
+    }    
+  }
+}
+
 .text-center{
   text-align: center;
 }
