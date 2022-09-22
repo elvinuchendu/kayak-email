@@ -303,6 +303,8 @@ html, body,
 .footer-menu{
   background: #14191e;
   background-color: #14191e;
+  border-bottom: 1px solid #26333e;
+  border-top: 1px solid #26333e;  
   .columns{
     padding-bottom: 5px !important;
     padding-right: 10px !important;
@@ -327,8 +329,8 @@ html, body,
       display: block;
       height: 20px; 
       width: 1px; 
-      background: #ff6a10; 
-      background-color: #ff6a10;
+      background: #26333e; 
+      background-color: #26333e;
     }    
   }
 }
