@@ -349,7 +349,7 @@ html, body,
     }
     & > tbody > tr > th > table > tbody > tr > th{
       text-align: center;
-      a{
+      a.link{
         font-size: 12px;
         color: #ffffff;
         margin-right: 15px;
@@ -389,6 +389,10 @@ html, body,
     }
 
   }
+}
+@media all {
+  // typography
+    a:hover {color: $primary-color !important }
 }
 
 .text-center{
