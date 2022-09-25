@@ -9,13 +9,13 @@ subject: Great Deals Today
             <h2>Deal of The Day</h2>
             <img src="{{root}}/assets/img/kayak_email/ireland.png"/>
             <p>
-                Ireland: 9 days with air, hotel and car rental. Use promo code CFDL110 to save. Price reflects NYC departure, other cities available.
+                {{kayakEmail.dealOfTheDay.location}}: {{kayakEmail.dealOfTheDay.description}}
             </p>
-            <span class="save_amount"> Save $110 with code</span>
-            <span class="tiny_info"> Gate 1 Travel</span>
-            <span class="price"> $649+</span>
+            <span class="save_amount"> {{kayakEmail.dealOfTheDay.saveAmount}}</span>
+            <span class="tiny_info"> {{kayakEmail.dealOfTheDay.tinyInfo}}</span>
+            <span class="price"> {{kayakEmail.dealOfTheDay.price}}</span>
             <center>
-                <a href="#" class="button">See Deal</span>
+                <a href="{{kayakEmail.dealOfTheDay.link}}" class="button">See Deal</span>
             </center>
         </columns>
     </row>            
