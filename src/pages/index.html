@@ -7,7 +7,7 @@ subject: Great Deals Today
     <row class="deal_of_day">
         <columns>
             <h2>Deal of The Day</h2>
-            <img src="{{root}}/assets/img/kayak_email/ireland.png"/>
+            <img src="{{kayakEmail.dealOfTheDay.image}}"/>
             <p>
                 {{kayakEmail.dealOfTheDay.location}}: {{kayakEmail.dealOfTheDay.description}}
             </p>
@@ -23,18 +23,20 @@ subject: Great Deals Today
 <container>
     <row class="content-area">
         <columns class="first-offer">
+            {{#each kayakEmail.offers}}
             <row class="offer">
                 <columns>
-                    <img src="{{root}}/assets/img/kayak_email/cancun.png"/>
+                    <img src="{{this.image}}"/>
                     <p>
-                        Cancun: 4 nights with air and Melody Maker Cancun stay. Price reflects MIA departure, other cities available.
+                        {{this.location}}: {{this.description}}
                     </p>
-                    <span class="save_amount"> Save up to 65%</span>
-                    <span class="tiny_info"> CheapCaribbean.com</span>
-                    <span class="price"> $689+</span>
-                        <a href="#" class="button">See Deal</span>
+                    <span class="save_amount"> {{this.saveAmount}}</span>
+                    <span class="tiny_info"> {{this.tinyInfo}}</span>
+                    <span class="price"> {{this.price}}</span>
+                        <a href="{{this.link}}" class="button">See Deal</span>
                 </columns>
             </row>
+            {{/each}}
         </columns>
     </row>
 </container>
